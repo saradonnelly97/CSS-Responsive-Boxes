@@ -1,5 +1,6 @@
 * {
   border: 1px solid teal;
+  box-sizing: border-box;
 }
 
 body {
@@ -7,8 +8,8 @@ body {
 }
 .container {
   display: flex;
-  width: 90%;
-  margin: auto;
+  min-height: 75vh;
+  flex-direction: column;
   justify-content: space-between;
 }
 
