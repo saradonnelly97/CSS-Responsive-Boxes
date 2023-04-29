@@ -12,22 +12,12 @@ body {
     justify-content: space-between;
 }
 
-.a {
-  min-height: 60vh; 
+header, footer {
   flex-grow: 1;
-  margin: 20px;
 }
 
-.b {
-  min-height: 100vh;
-  flex-grow: 5;
-  margin: 20px;
-}
-
-.c {
-  min-height: 100vh;
-  flex-grow: 1;
-  margin: 20px;
+main {
+  flex-grow: 3;
 }
 
 @media (min-width: 600px) {
