@@ -35,10 +35,10 @@ body {
       flex-direction: row;
       flex-wrap: wrap;
   }
-  .a {
+  header {
       width: 100%;
   }
-  .b { 
-      max-width: 60%;
+  main, footer, header { 
+      margin: 1em;
   }
 }
