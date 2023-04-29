@@ -1,3 +1,21 @@
+* {
+  border: 1px solid teal;
+}
+
 body {
   background: papayawhip;
+}
+.container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.f {
+  flex-basis: 15%;
+  min-width: 15%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
